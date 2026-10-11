@@ -1,4 +1,4 @@
-package jp.kamei.detailedstats;
+package jp.pakupaku.detailedstats;
 
 import com.google.gson.JsonObject;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package jp.kamei.detailedstats;
+package jp.pakupaku.detailedstats;
 
 import java.nio.file.Path;
 import java.sql.*;

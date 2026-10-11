@@ -1,4 +1,4 @@
-package jp.kamei.detailedstats;
+package jp.pakupaku.detailedstats;
 import com.google.gson.*;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;

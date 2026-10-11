@@ -1,8 +1,8 @@
 name: DetailedPlayerStats
 version: ${project.version}
-main: jp.kamei.detailedstats.DetailedPlayerStatsPlugin
+main: jp.pakupaku.detailedstats.DetailedPlayerStatsPlugin
 api-version: '26.2'
-author: kamei
+author: pakupaku
 description: MySQL detailed activity journal, daily counters and imported lifetime statistics
 softdepend: [WorldStateSync]
 commands:
