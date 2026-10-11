@@ -1,0 +1,20 @@
+# Empty server-id uses Paper:<port>; never change it after importing data.
+server-id: ""
+inherit-worldstatesync-mysql: true
+mysql:
+  host: "127.0.0.1"
+  port: 3306
+  database: minecraft
+  username: minecraft
+  password: change-me
+  use-ssl: false
+flush-seconds: 2
+snapshot-seconds: 30
+import-on-start: true
+# Relative to the Paper server directory (26.2 stores these outside dimension folders).
+statistics-directories: ["world/players/stats", "world/stats"]
+import-coreprotect: true
+# Read-only historical import. Copies only records that predate installation.
+coreprotect-prefix: "co_"
+# Default keeps the entire journal. Set retention only after choosing a policy.
+# No chat messages, commands, IPs, or authentication secrets are recorded.

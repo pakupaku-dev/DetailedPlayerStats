@@ -1,0 +1,16 @@
+name: DetailedPlayerStats
+version: ${project.version}
+main: jp.kamei.detailedstats.DetailedPlayerStatsPlugin
+api-version: '26.2'
+author: kamei
+description: MySQL detailed activity journal, daily counters and imported lifetime statistics
+softdepend: [WorldStateSync]
+commands:
+  detailedstats:
+    description: Statistics recording status, flush and historical import
+    usage: /detailedstats <status|flush|import>
+    aliases: [dstats]
+    permission: detailedstats.admin
+permissions:
+  detailedstats.admin:
+    default: op
